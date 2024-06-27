@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="calculator">
+            <div class="screen">
+                <div class="task"></div>
+                <div class="result">
+                    <h1>=0</h1>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="operand1">
+                    <button class="button small clearbutton" value=" ">Ac</button>
+                    <button class="button small backspacebutton" value=""><img src="backspace.png" alt=""
+                            class="backspaceimage"></button>
+
+                    <button class="button small operation" value="(">(</button>
+                    <button class="button small operation" value=")">)</button>
+                </div>
+                <div class="operand2">
+                    <button class="button small" value="">lg</button>
+                    <button class="button small" value="">ln</button>
+                    <button class="button small" value="">e</button>
+                    <button class="button small operation" value="/">/</button>
+                </div>
+                <div class="operand3">
+                    <button class="button small" value="7">7</button>
+                    <button class="button small" value="8">8</button>
+                    <button class="button small" value="9">9</button>
+                    <button class="button small operation" value="*"><img src="star.png" alt="multiply"
+                            class="multiplyimage"></button>
+                </div>
+                <div class="operand4">
+                    <button class="button small" value="4">4</button>
+                    <button class="button small" value="5">5</button>
+                    <button class="button small" value="6">6</button>
+                    <button class="button small operation" value="-">-</button>
+                </div>
+                <div class="operand5">
+                    <button class="button small" value="1">1</button>
+                    <button class="button small" value="2">2</button>
+                    <button class="button small" value="3">3</button>
+                    <button class="button small operation" value="+">+</button>
+                </div>
+                <div class="operand6">
+                    <button class="button small button0" value="0">0</button>
+                    <button class="button small" value=".">.</button>
+                    <button class="button small operation equalstoobutton" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

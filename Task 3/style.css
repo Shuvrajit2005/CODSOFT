@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    height: 681px;
+    width: 345px;
+    background-color: rgb(22, 23, 26);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 39px;
+    box-shadow: 40px 28px 50px rgb(0 162 255 / 35%);
+}
+
+.screen {
+    height: 200px;
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.task {
+    height: 36px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 24px;
+    color: rgb(129, 129, 129);
+}
+
+.result {
+    height: 72px;
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+.buttons {
+    height: 440px;
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.operand1 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operand2 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operand3 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operand4 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operand5 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operand6 {
+    height: 62px;
+    width: 308px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.small {
+    height: 62px;
+    width: 62px;
+    border-radius: 16px;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(16, 157, 255);
+    background-color: rgb(48, 49, 54);
+    border: none;
+}
+
+.small:hover {
+    scale: 1.1;
+}
+
+.backspaceimage {
+    height: 18px;
+    width: 22px;
+    filter: contrast(2);
+}
+
+.multiplyimage {
+    height: 12px;
+    width: 12px;
+}
+
+.operation {
+    background-color: rgb(0, 93, 178);
+    color: rgb(96, 189, 255);
+}
+
+.button0 {
+    width: 144px;
+}
+
+.equalstoobutton {
+    background-color: rgb(16, 157, 255);
+    color: white;
+}
+
+.clearbutton {
+    background-color: rgb(122, 122, 122);
+    color: rgb(197, 197, 197);
+}
+
+.backspacebutton {
+    background-color: rgb(122, 122, 122);
+}
